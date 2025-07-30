@@ -1,1 +1,36 @@
+body {
+  background-color: #fdf6f0;
+  font-family: 'Dancing Script', cursive;
+  color: #3d2b1f;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #a0522d;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
+.rose {
+  margin-top: 30px;
+  width: 60px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
